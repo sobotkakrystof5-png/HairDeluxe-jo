@@ -1110,14 +1110,16 @@
             width="900" height="600">
           <!-- Gradient přechod do tmavé části -->
           <div class="absolute inset-0" style="background: linear-gradient(to right, transparent 60%, rgba(10,10,10,0.95) 100%);"></div>
+          <!-- Tmavý overlay přes spodek pro čitelnost textu -->
+          <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(10,10,10,0.85) 0%, rgba(10,10,10,0.4) 40%, transparent 70%);"></div>
           <!-- Floating quote -->
           <div class="absolute bottom-10 left-8 right-16 z-10">
-            <p class="font-display font-light text-pearl/80 italic" style="font-size:1.25rem; line-height:1.5;">
+            <p class="font-display font-light text-white italic" style="font-size:1.25rem; line-height:1.5; text-shadow: 0 2px 12px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.9);">
               "Luxus spočívá v péči o detaily, které nikdo nečeká."
             </p>
             <div class="mt-3 flex items-center gap-3">
               <div class="w-8 h-px bg-rose-gold"></div>
-              <span class="font-body text-rose-gold/80 text-xs tracking-widest uppercase">Martina Procházková</span>
+              <span class="font-body text-rose-gold text-xs tracking-widest uppercase" style="text-shadow: 0 1px 6px rgba(0,0,0,0.9);">Martina Procházková</span>
             </div>
           </div>
         </div>
